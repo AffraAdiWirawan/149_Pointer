@@ -18,6 +18,11 @@ class siswa {
 	void setId(int pId);
 	void displayAll(orang& a);
 };
+
+void siswa::displayAll(orang& a) {
+	cout << id << endl << a.nama;
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
