@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 
-class siswa;
+class siswa; 
 
 int main()
 {
